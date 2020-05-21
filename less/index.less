@@ -55,7 +55,68 @@ table {
 
 html, body {
 	height: 100%;
+	font-family: 'Fira Sans', sans-serif;
 }
 
 
 @fontheading3:2.1 rem;
+@heading3color:#3a4664;
+@title1color:#696969;
+@title2color:#eaa0a2;
+@detailscolor:#2b2d2f;
+
+.container{
+	display:flex;
+	width:auto;
+	height:100%;
+	margin:40px;
+	border-radius: 10px;
+	/*border:10px solid salmon;*/
+	background-color: #f5f5f5;
+}
+
+.hero{
+	display:flex;
+	width:100vw;
+	height:175px;
+	/*border: 10px solid salmon;*/
+}
+.hero-left{
+	display:flex;
+	flex-direction: column;
+	margin:40px;
+	color:@detailscolor;
+	h1{
+		font-size: 34px;
+		margin-bottom:10px;
+	}
+	h2{
+		font-size: 20px;
+		margin-left: 105px;
+		color:@title2color;
+ 
+		@media (max-width:600px){
+			margin:0px;
+ }
+	}
+}
+nav a{
+	
+	text-decoration: none;
+	color:@detailscolor;
+	font-size: 14px;
+	margin:60px;
+	padding:0px;
+	display:inline-block;
+
+	&:hover{
+		color:@title2color;
+	}
+ @media (max-width:600px){
+	 display:flex;
+	 flex-direction: row;
+	 justify-content: center;
+	 margin:35px;
+	 padding:0px;
+ }
+ }
