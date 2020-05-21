@@ -58,15 +58,24 @@ html, body {
 	font-family: 'Fira Sans', sans-serif;
 }
 
-
+/*Variables*/
 @fontheading3:2.1 rem;
 @heading3color:#3a4664;
 @title1color:#696969;
 @title2color:#eaa0a2;
 @detailscolor:#2b2d2f;
 
+/*Mixins*/
+.experienceTitle3{
+font-size: 18px;
+font-weight: 600;
+color:@title1color;
+margin-bottom:10px;
+}
+
 .container{
 	display:flex;
+	flex-direction:column ;
 	width:auto;
 	height:100%;
 	margin:40px;
@@ -77,7 +86,7 @@ html, body {
 
 .hero{
 	display:flex;
-	width:100vw;
+	justify-content: space-between;
 	height:175px;
 	/*border: 10px solid salmon;*/
 }
@@ -87,13 +96,13 @@ html, body {
 	margin:40px;
 	color:@detailscolor;
 	h1{
-		font-size: 34px;
+		font-size: 38px;
 		margin-bottom:10px;
 	}
 	h2{
 		font-size: 20px;
-		margin-left: 105px;
-		color:@title2color;
+		margin-left: 133px;
+		color:#2f2f2f;
  
 		@media (max-width:600px){
 			margin:0px;
@@ -119,4 +128,26 @@ nav a{
 	 margin:35px;
 	 padding:0px;
  }
- }
+}
+
+.experience{
+	margin:40px;
+
+	.exp-title{
+		color:@heading3color;
+		font-size:28px;
+		margin-bottom: 20px;
+	}
+}
+h3{
+	.experienceTitle3();
+}
+.date{
+	color:@title2color;
+	margin-bottom: 5px;
+}
+ p{
+	color:@detailscolor;
+	font-size: 14px;
+	line-height: 1.2;
+	}

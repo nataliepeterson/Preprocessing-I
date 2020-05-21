@@ -135,8 +135,17 @@ body {
   height: 100%;
   font-family: 'Fira Sans', sans-serif;
 }
+/*Variables*/
+/*Mixins*/
+.experienceTitle3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #696969;
+  margin-bottom: 10px;
+}
 .container {
   display: flex;
+  flex-direction: column ;
   width: auto;
   height: 100%;
   margin: 40px;
@@ -146,7 +155,7 @@ body {
 }
 .hero {
   display: flex;
-  width: 100vw;
+  justify-content: space-between;
   height: 175px;
   /*border: 10px solid salmon;*/
 }
@@ -157,13 +166,13 @@ body {
   color: #2b2d2f;
 }
 .hero-left h1 {
-  font-size: 34px;
+  font-size: 38px;
   margin-bottom: 10px;
 }
 .hero-left h2 {
   font-size: 20px;
-  margin-left: 105px;
-  color: #eaa0a2;
+  margin-left: 133px;
+  color: #2f2f2f;
 }
 @media (max-width: 600px) {
   .hero-left h2 {
@@ -189,4 +198,27 @@ nav a:hover {
     margin: 35px;
     padding: 0px;
   }
+}
+.experience {
+  margin: 40px;
+}
+.experience .exp-title {
+  color: #3a4664;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #696969;
+  margin-bottom: 10px;
+}
+.date {
+  color: #eaa0a2;
+  margin-bottom: 5px;
+}
+p {
+  color: #2b2d2f;
+  font-size: 14px;
+  line-height: 1.2;
 }
