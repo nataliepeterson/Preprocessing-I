@@ -150,7 +150,7 @@ body {
 .details {
   color: #2b2d2f;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.4;
   margin-bottom: 40px;
 }
 .container {
@@ -241,6 +241,18 @@ p {
 .about {
   color: #2b2d2f;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.4;
   margin-bottom: 40px;
+}
+.skills {
+  margin: 40px;
+}
+.skills h3 {
+  color: #3a4664;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+footer a {
+  display: flex;
+  justify-content: center;
 }
