@@ -139,7 +139,6 @@ body {
 /*Mixins*/
 .experienceTitle3 {
   font-size: 18px;
-  font-weight: 600;
   color: #696969;
   margin-bottom: 10px;
 }
@@ -222,7 +221,6 @@ nav a:hover {
 }
 h3 {
   font-size: 18px;
-  font-weight: 600;
   color: #696969;
   margin-bottom: 10px;
 }
@@ -237,7 +235,6 @@ p {
 }
 .place {
   font-size: 18px;
-  font-weight: 600;
   color: #696969;
   margin-bottom: 10px;
 }
