@@ -73,11 +73,25 @@ color:@title1color;
 margin-bottom:10px;
 }
 
+.title{
+	color:@heading3color;
+		font-size:28px;
+		margin-bottom: 20px;
+		
+}
+
+.details{
+	color:@detailscolor;
+	font-size: 14px;
+	line-height: 1.2;
+	margin-bottom: 40px;
+}
+
 .container{
 	display:flex;
 	flex-direction:column ;
 	width:auto;
-	height:100%;
+
 	margin:40px;
 	border-radius: 10px;
 	/*border:10px solid salmon;*/
@@ -132,12 +146,16 @@ nav a{
 
 .experience{
 	margin:40px;
+	
+	.title();
 
-	.exp-title{
+	
+
+	/*.exp-title{
 		color:@heading3color;
 		font-size:28px;
 		margin-bottom: 20px;
-	}
+	}*/
 }
 h3{
 	.experienceTitle3();
@@ -151,3 +169,12 @@ h3{
 	font-size: 14px;
 	line-height: 1.2;
 	}
+
+.place{
+	.experienceTitle3();
+}
+.about{
+	.details();
+}
+
+

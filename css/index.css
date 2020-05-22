@@ -143,11 +143,21 @@ body {
   color: #696969;
   margin-bottom: 10px;
 }
+.title {
+  color: #3a4664;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.details {
+  color: #2b2d2f;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
 .container {
   display: flex;
   flex-direction: column ;
   width: auto;
-  height: 100%;
   margin: 40px;
   border-radius: 10px;
   /*border:10px solid salmon;*/
@@ -201,11 +211,14 @@ nav a:hover {
 }
 .experience {
   margin: 40px;
-}
-.experience .exp-title {
   color: #3a4664;
   font-size: 28px;
   margin-bottom: 20px;
+  /*.exp-title{
+		color:@heading3color;
+		font-size:28px;
+		margin-bottom: 20px;
+	}*/
 }
 h3 {
   font-size: 18px;
@@ -221,4 +234,16 @@ p {
   color: #2b2d2f;
   font-size: 14px;
   line-height: 1.2;
+}
+.place {
+  font-size: 18px;
+  font-weight: 600;
+  color: #696969;
+  margin-bottom: 10px;
+}
+.about {
+  color: #2b2d2f;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-bottom: 40px;
 }
