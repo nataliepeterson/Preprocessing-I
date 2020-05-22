@@ -1,1 +1,258 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: 'Fira Sans', sans-serif;
+}
+/*Variables*/
+/*Mixins*/
+.experienceTitle3 {
+  font-size: 18px;
+  color: #696969;
+  margin-bottom: 10px;
+}
+.title {
+  color: #3a4664;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.details {
+  color: #2b2d2f;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+}
+.container {
+  display: flex;
+  flex-direction: column ;
+  width: auto;
+  margin: 40px;
+  border-radius: 10px;
+  /*border:10px solid salmon;*/
+  background-color: #f5f5f5;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  height: 175px;
+  /*border: 10px solid salmon;*/
+}
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  color: #2b2d2f;
+}
+.hero-left h1 {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+.hero-left h2 {
+  font-size: 20px;
+  margin-left: 133px;
+  color: #2f2f2f;
+}
+@media (max-width: 600px) {
+  .hero-left h2 {
+    margin: 0px;
+  }
+}
+nav a {
+  text-decoration: none;
+  color: #2b2d2f;
+  font-size: 14px;
+  margin: 60px;
+  padding: 0px;
+  display: inline-block;
+}
+nav a:hover {
+  color: #eaa0a2;
+}
+@media (max-width: 600px) {
+  nav a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 35px;
+    padding: 0px;
+  }
+}
+.experience {
+  margin: 40px;
+  color: #3a4664;
+  font-size: 28px;
+  margin-bottom: 20px;
+  /*.exp-title{
+		color:@heading3color;
+		font-size:28px;
+		margin-bottom: 20px;
+	}*/
+}
+h3 {
+  font-size: 18px;
+  color: #696969;
+  margin-bottom: 10px;
+}
+.date {
+  color: #eaa0a2;
+  margin-bottom: 5px;
+}
+p {
+  color: #2b2d2f;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.place {
+  font-size: 18px;
+  color: #696969;
+  margin-bottom: 10px;
+}
+.about {
+  color: #2b2d2f;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+}
+.skills {
+  margin: 40px;
+}
+.skills h3 {
+  color: #3a4664;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+footer a {
+  display: flex;
+  justify-content: center;
+}
